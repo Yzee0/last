@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">   
+    <title>信息收集表</title>
+</head>
+
+<body>
+	  <script>
+		  alert('请填写个人信息')
+	  </script>
+	<table border="1" class="biao">
+			<tr>
+						 <th colspan="2" align="center">个人信息收集表</th>
+			</tr>
+            <tr>
+                <td>姓名：</td>
+                <td>
+                    <input type="text" name="username" placeholder="请输入名字">
+                </td>
+            </tr><br>
+            <tr>
+                <td>年龄：</td>
+                <td>
+                    <input type="text" name="userage" placeholder="请输入年龄">
+                </td>
+            </tr><br>
+            <tr>
+                <td>性别：</td>
+                <td>
+                    <input type="radio" name="usersex" value="1">男
+                    <input type="radio" name="usersex" value="0">女
+                </td>
+            </tr><br>
+            <tr>
+                <td>血型：</td>
+                <td>
+					 <input type="radio" value="A" name="blood">A
+					 <input type="radio" value="B" name="blood">B
+                     <input type="radio" value="O" name="blood">O
+                    <input type="radio" value="AB" name="blood">AB<br />
+                    
+                </td>
+            </tr><br>
+            <tr>
+                <td>爱好：</td>
+                <td>
+					<input type="checkbox" value="baseketball" name="hobby">唱
+					<input type="checkbox" value="running" name="hobby">跳
+                    <input type="checkbox" value="running" name="hobby">rap<br />
+                    <input type="checkbox" value="swimming" name="hobby">篮球<br>
+                </td>
+            </tr><br>
+			<tr>
+			    <td>喜欢的游戏：</td>
+			    <td>
+					<input type="checkbox" value="c++" name="hobby">apex
+					<input type="checkbox" value="qt" name="hobby">LOL
+					<input type="checkbox" value="c#" name="hobby">CF
+					<input type="checkbox" value="java" name="hobby">原神<br />
+			        <input type="checkbox" value="python" name="hobby">永劫无间
+			    </td>
+			</tr><br>
+            <tr>
+                <td>上传照片：</td>
+                <td>                   
+                    <button><input type="file" value="选择图片"></button>
+                </td>
+            </tr><br>
+            <tr>
+                <td>简介：</td>
+                <td>
+                    <textarea name="textarea"  rows="5" cols="25" id="ziwo" placeholder="请输入你的简介"></textarea>
+                </td>
+            </tr><br>
+            <tr>
+                <td>城市：</td>
+                <td>
+                    <select>
+                        <option name="选项的值" selected="">成都市</option>
+                        <option value="成都市">成都市</option>
+                        <option value="西安市">西安市</option>
+                        <option value="宝鸡市">宝鸡市</option>
+                        <option value="广元市">广元市</option>
+                        <option value="重庆市">重庆市</option>
+                    </select>
+                </td>
+            </tr><br>
+			<tr>
+				
+					 <th colspan="2" align="center"><input type="submit" value="提交" style="color: darkred";>
+	                <input type="reset" value="重置"  style="color: darkgreen;"></th>     				
+			</tr>
+
+</table>
+
+</body>
+<style>
+		textarea{
+			color: chocolate;
+			font-family: "宋体";
+			font-size: 30px;
+		}
+		input{
+			
+			font-family: "宋体";
+			font-size: 30px;
+		}
+		
+		select{
+			color: cornflowerblue;
+			font-family: "宋体";
+			font-size: 30px;
+		}
+		body{
+			
+			font-family: "宋体";
+			font-size: 30px;
+		}
+		table{
+			background-color: LightSkyBlue;
+		}
+		table:hover{
+			background-color: NavajoWhite;
+		}
+		
+		.biao:hover{
+			font-family: "宋体";
+			font-size: 36px;
+		}
+	</style>
+</html>
